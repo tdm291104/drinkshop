@@ -1,0 +1,30 @@
+.featuredSection {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .featuredSection {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    z-index: 10;
+}

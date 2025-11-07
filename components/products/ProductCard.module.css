@@ -1,0 +1,9 @@
+.starFilled {
+    color: #f59e0b;
+    /* text-yellow-500 */
+}
+
+.starEmpty {
+    color: #d1d5db;
+    /* text-gray-300 */
+}

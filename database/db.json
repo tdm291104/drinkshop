@@ -1,0 +1,2195 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@drinkshop.com",
+      "password": "123",
+      "firstName": "Admin",
+      "lastName": "User",
+      "avatar": "placeholder/avatar.png",
+      "role": "admin",
+      "receiveNews": true,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "2",
+      "email": "thanh@gmail.com",
+      "password": "12345678",
+      "firstName": "Thành",
+      "lastName": "Phạm",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": true,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "3",
+      "email": "dong@gmail.com",
+      "password": "12345678",
+      "firstName": "Đông",
+      "lastName": "Dương",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": false,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "4",
+      "email": "phu@gmail.com",
+      "password": "12345678",
+      "firstName": "Phú",
+      "lastName": "Trần",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": true,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "5",
+      "email": "bach@drinkshop.com",
+      "password": "12345678",
+      "firstName": "Bách",
+      "lastName": "Nguyễn",
+      "avatar": "placeholder/avatar.png",
+      "role": "admin",
+      "receiveNews": false,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "6",
+      "email": "maria@gmail.com",
+      "password": "12345678",
+      "firstName": "Maria",
+      "lastName": "Nguyễn",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": true
+    },
+    {
+      "id": "7",
+      "email": "linh@gmail.com",
+      "password": "12345678",
+      "firstName": "Linh",
+      "lastName": "Nguyễn",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": false
+    },
+    {
+      "id": "a367",
+      "email": "kagoko1505@cotasen.com",
+      "password": "1q2w3e4r",
+      "firstName": "Kagoyo",
+      "lastName": "Uchiha",
+      "avatar": "placeholder/avatar.png",
+      "role": "customer",
+      "receiveNews": false,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "cdd2",
+      "email": "uruharushiachankawaii@gmail.com",
+      "password": "oauth-user",
+      "firstName": "Rushia1",
+      "lastName": "Uruha",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIskyoVuWIMfZHCdEvRM6ox3qu4xWWsPus78w6HqsbbBNJtAjg=s96-c",
+      "role": "customer",
+      "receiveNews": true,
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "caf1",
+      "email": "justnoobvn@gmail.com",
+      "password": "oauth-user",
+      "firstName": "Thành",
+      "lastName": "Phạm Lê",
+      "avatar": "https://avatars.githubusercontent.com/u/131281853?v=4",
+      "role": "customer",
+      "receiveNews": true,
+      "twoFactorEnabled": false
+    }
+  ],
+  "addresses": [
+    {
+      "id": "1",
+      "userId": "2",
+      "firstName": "Thành",
+      "lastName": "Phạm",
+      "company": "Công ty TNHH ABC",
+      "address": "123 Đường ABC",
+      "country": "Việt Nam",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "phone": "0987654321",
+      "isDefault": true,
+      "createdAt": "2024-02-15T08:30:00.000Z",
+      "updatedAt": "2024-02-15T08:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "firstName": "Thành",
+      "lastName": "Phạm",
+      "company": "Công ty XYZ",
+      "address": "456 Đường XYZ, Tòa nhà DEF",
+      "country": "Việt Nam",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "phone": "0987654321",
+      "isDefault": false,
+      "createdAt": "2024-03-01T10:15:00.000Z",
+      "updatedAt": "2024-03-01T10:15:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "firstName": "Đông",
+      "lastName": "Dương",
+      "company": "",
+      "address": "789 Đường GHI",
+      "country": "Việt Nam",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "phone": "0912345678",
+      "isDefault": true,
+      "createdAt": "2024-03-10T10:15:00.000Z",
+      "updatedAt": "2024-03-10T10:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "firstName": "Phú",
+      "lastName": "Trần",
+      "company": "",
+      "address": "321 Đường JKL",
+      "country": "Việt Nam",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "phone": "0934567890",
+      "isDefault": true,
+      "createdAt": "2024-04-05T14:20:00.000Z",
+      "updatedAt": "2024-04-05T14:20:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "firstName": "Maria",
+      "lastName": "Nguyễn",
+      "company": "Công ty TNHH MNO",
+      "address": "555 Đường MNO",
+      "country": "Việt Nam",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "phone": "0978123456",
+      "isDefault": true,
+      "createdAt": "2024-05-20T16:45:00.000Z",
+      "updatedAt": "2024-05-20T16:45:00.000Z"
+    }
+  ],
+  "slides": [
+    {
+      "id": "1",
+      "image": "/slides/slide-1.jpg",
+      "title": "Rượu Vang Đỏ",
+      "subtitle": "Tinh Hoa Từ Những Vườn Nho Tốt Nhất",
+      "buttonText": "KHÁM PHÁ NGAY",
+      "buttonLink": "/Product?category=Rượu%20Vang%20Đỏ"
+    },
+    {
+      "id": "2",
+      "image": "/slides/slide-2.jpg",
+      "title": "Bộ Sưu Tập Đặc Biệt",
+      "subtitle": "Những Chai Rượu Vang Cao Cấp Nhất",
+      "buttonText": "XEM THÊM",
+      "buttonLink": "/Product"
+    },
+    {
+      "id": "3",
+      "image": "/slides/slide-3.jpg",
+      "title": "Nghệ Thuật Thưởng Thức",
+      "subtitle": "Trải Nghiệm Hương Vị Đích Thực",
+      "buttonText": "TÌM HIỂU THÊM",
+      "buttonLink": "/about"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "LA CAPRA VIOGNIER",
+      "price": 450000,
+      "originalPrice": 520000,
+      "image": "/Product/1.jpg",
+      "category": "Rượu Vang Trắng",
+      "description": "Rượu vang trắng Viognier với hương thơm đặc trưng của hoa và trái cây nhiệt đới. Vị cân bằng giữa độ chua tự nhiên và độ ngọt nhẹ.",
+      "rating": 4,
+      "reviews": 23,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 13.5%",
+        "Dung tích: 750ml",
+        "Nhiệt độ phục vụ: 8-10°C"
+      ],
+      "categoryId": 4,
+      "isNew": true,
+      "slug": "2"
+    },
+    {
+      "id": "2",
+      "name": "RAMONDA ROURES",
+      "price": 680000,
+      "originalPrice": 750000,
+      "image": "/Product/2.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ cao cấp với thiết kế nhãn nghệ thuật độc đáo. Hương vị phức hợp với note của trái cây chín và gia vị.",
+      "rating": 5,
+      "reviews": 18,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 14%",
+        "Dung tích: 750ml",
+        "Thời gian ủ: 12 tháng"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "TORELLO MOSAICS 05",
+      "price": 590000,
+      "originalPrice": 650000,
+      "image": "/Product/3.jpg",
+      "category": "Rượu Vang Trắng",
+      "description": "Rượu vang trắng với thiết kế nhãn hiện đại, hương vị tươi mát và cân bằng. Phù hợp với hải sản và món ăn nhẹ.",
+      "rating": 4,
+      "reviews": 31,
+      "stock": 250,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 12.5%",
+        "Dung tích: 750ml",
+        "Phong cách: Hiện đại"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "TORELLO DOLÇ",
+      "price": 720000,
+      "originalPrice": 800000,
+      "image": "/Product/4.jpg",
+      "category": "Rượu Vang Ngọt",
+      "description": "Rượu vang ngọt cao cấp với bọt khí tự nhiên, hương vị ngọt ngào và thanh thoát. Lý tưởng cho tráng miệng.",
+      "rating": 5,
+      "reviews": 12,
+      "stock": 200,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 11%",
+        "Dung tích: 750ml",
+        "Loại: Sparkling Sweet"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "TORELLO MARC",
+      "price": 850000,
+      "originalPrice": 950000,
+      "image": "/Product/5.jpg",
+      "category": "Champagne",
+      "description": "Champagne cao cấp với bọt khí mịn màng và hương vị phức tạp. Được ủ lâu để tạo nên độ tinh tế đặc biệt.",
+      "rating": 5,
+      "reviews": 27,
+      "stock": 15,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 12%",
+        "Dung tích: 750ml",
+        "Phương pháp: Méthode Champenoise"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "TORELLO BRUT RESERVA",
+      "price": 920000,
+      "originalPrice": 1000000,
+      "image": "/Product/6.jpg",
+      "category": "Champagne",
+      "description": "Champagne Brut Reserva với chất lượng cao cấp, bọt khí tinh tế và hương vị cân bằng hoàn hảo.",
+      "rating": 5,
+      "reviews": 35,
+      "stock": 230,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 12%",
+        "Dung tích: 750ml",
+        "Thời gian ủ: 24 tháng"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "PETJADES ROSÉ",
+      "price": 380000,
+      "originalPrice": 420000,
+      "image": "/Product/7.jpg",
+      "category": "Rượu Vang Rosé",
+      "description": "Rượu vang rosé tươi mát với màu hồng quyến rũ, hương vị nhẹ nhàng và thanh thoát. Hoàn hảo cho mùa hè.",
+      "rating": 4,
+      "reviews": 19,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Tây Ban Nha",
+        "Độ cồn: 12.5%",
+        "Dung tích: 750ml",
+        "Phong cách: Tươi mát"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "CAMPERCHI TOSCANA",
+      "price": 1250000,
+      "originalPrice": 1400000,
+      "image": "/Product/8.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ Toscana cao cấp từ Italia với hương vị phức hợp và tannin mềm mại. Thể hiện tinh hoa của vùng đất nổi tiếng.",
+      "rating": 5,
+      "reviews": 41,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Italia",
+        "Độ cồn: 14.5%",
+        "Dung tích: 750ml",
+        "Vùng: Toscana IGT"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ROOT:1 CABERNET SAUVIGNON",
+      "price": 1580000,
+      "originalPrice": 1750000,
+      "image": "/Product/9.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ cao cấp từ nho Cabernet Sauvignon, ủ trong thùng gỗ sồi với thiết kế chai sang trọng và hương vị đẳng cấp.",
+      "rating": 5,
+      "reviews": 8,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Úc",
+        "Độ cồn: 14.5%",
+        "Dung tích: 750ml",
+        "Thời gian ủ: 18 tháng"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "PRIMARIO PUGLIA 2000",
+      "price": 890000,
+      "originalPrice": 980000,
+      "image": "/Product/10.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ vintage từ vùng Puglia, Italia. Được sản xuất từ năm 2000 với hương vị đậm đà và truyền thống.",
+      "rating": 4,
+      "reviews": 15,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Italia",
+        "Độ cồn: 13.5%",
+        "Dung tích: 750ml",
+        "Năm sản xuất: 2000"
+      ],
+      "categoryId": 3,
+      "status": "",
+      "slug": "2"
+    },
+    {
+      "id": "11",
+      "name": "ADMIT ONE RED BLEND",
+      "price": 750000,
+      "originalPrice": 850000,
+      "image": "/Product/11.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ blend hiện đại với thiết kế nhãn độc đáo. Hương vị cân bằng giữa các giống nho khác nhau tạo nên sự phức hợp thú vị.",
+      "rating": 4,
+      "reviews": 22,
+      "stock": 400,
+      "features": [
+        "Xuất xứ: Úc",
+        "Độ cồn: 14%",
+        "Dung tích: 750ml",
+        "Phong cách: Modern Blend"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "EL GUAPO RED WINE",
+      "price": 520000,
+      "originalPrice": 580000,
+      "image": "/Product/12.jpg",
+      "category": "Rượu Vang Đỏ",
+      "description": "Rượu vang đỏ với thiết kế nhãn nghệ thuật đầy màu sắc, thể hiện tinh thần vui tươi và sáng tạo. Hương vị trái cây đậm đà.",
+      "rating": 4,
+      "reviews": 28,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Argentina",
+        "Độ cồn: 13.5%",
+        "Dung tích: 750ml",
+        "Phong cách: Artistic"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "IT SHOULD BE RIESLING",
+      "price": 480000,
+      "originalPrice": 540000,
+      "image": "/Product/13.jpg",
+      "category": "Rượu Vang Trắng",
+      "description": "Rượu vang trắng Riesling với hương vị tươi mát và độ chua cân bằng. Thiết kế nhãn tối giản nhưng ấn tượng.",
+      "rating": 4,
+      "reviews": 17,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Đức",
+        "Độ cồn: 12%",
+        "Dung tích: 750ml",
+        "Giống nho: Riesling"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "ALPATACO SAUVIGNON BLANC",
+      "price": 420000,
+      "originalPrice": 480000,
+      "image": "/Product/14.jpg",
+      "category": "Rượu Vang Trắng",
+      "description": "Rượu vang trắng Sauvignon Blanc từ Argentina với hương thơm tươi mát của trái cây nhiệt đới và thảo mộc. Vị chua thanh khiết.",
+      "rating": 4,
+      "reviews": 33,
+      "stock": 100,
+      "features": [
+        "Xuất xứ: Argentina",
+        "Độ cồn: 13%",
+        "Dung tích: 750ml",
+        "Giống nho: Sauvignon Blanc"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Rượu Vang Đỏ",
+      "slug": "red-wine"
+    },
+    {
+      "id": "2",
+      "name": "Rượu Vang Trắng",
+      "slug": "white-wine"
+    },
+    {
+      "id": "3",
+      "name": "Champagne",
+      "slug": "champagne"
+    },
+    {
+      "id": "4",
+      "name": "Rượu Vang Rosé",
+      "slug": "rose-wine"
+    },
+    {
+      "id": "5",
+      "name": "Rượu Vang Ngọt",
+      "slug": "sweet-wine"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "HƯỚNG DẪN THƯỞNG THỨC RƯỢU VANG ĐỎ",
+      "excerpt": "Khám phá cách thưởng thức rượu vang đỏ đúng cách để cảm nhận trọn vẹn hương vị và tinh hoa của từng giọt rượu. Từ nhiệt độ phục vụ đến cách mở chai và decanting.",
+      "content": "Rượu vang đỏ là một trong những loại đồ uống có lịch sử lâu đời và được yêu thích trên toàn thế giới. Để thưởng thức trọn vẹn hương vị của một chai rượu vang đỏ, bạn cần chú ý đến một số yếu tố quan trọng.\n\nĐầu tiên, nhiệt độ phục vụ là yếu tố quyết định đến trải nghiệm thưởng thức rượu vang. Rượu vang đỏ nên được phục vụ ở nhiệt độ từ 16-18°C. Nếu rượu quá lạnh, hương vị sẽ bị kìm hãm, còn nếu quá nóng, cồn sẽ trở nên nổi bật và làm mất cân bằng hương vị.\n\nTiếp theo, việc 'để rượu thở' cũng rất quan trọng. Khi mở chai, bạn nên để rượu tiếp xúc với không khí từ 30 phút đến 2 giờ tùy thuộc vào tuổi và cấu trúc của rượu. Điều này giúp rượu 'mở ra' và phát triển hương vị đầy đủ hơn.\n\nViệc chọn ly rượu cũng ảnh hưởng đến trải nghiệm. Ly rượu vang đỏ thường có phần bầu rộng để tăng diện tích tiếp xúc với không khí và phần miệng hẹp hơn để giữ hương thơm.\n\nKhi thưởng thức, hãy chú ý đến màu sắc, hương thơm và vị giác. Màu sắc có thể cho bạn biết về tuổi của rượu, hương thơm tiết lộ về giống nho và vùng sản xuất, còn vị giác sẽ cho bạn cảm nhận về cấu trúc, tannin và độ cân bằng của rượu.\n\nCuối cùng, việc kết hợp rượu vang đỏ với món ăn phù hợp sẽ nâng cao trải nghiệm ẩm thực của bạn. Rượu vang đỏ đậm đà thường phù hợp với các món thịt đỏ, trong khi rượu vang đỏ nhẹ hơn có thể kết hợp với các món thịt trắng hoặc hải sản.",
+      "image": "/Product/9.jpg",
+      "date": "2024-01-15",
+      "author": "Admin",
+      "views": 156,
+      "category": "Kiến thức rượu vang"
+    },
+    {
+      "id": "2",
+      "title": "CHAMPAGNE VÀ SPARKLING WINE - SỰ KHÁC BIỆT",
+      "excerpt": "Tìm hiểu sự khác biệt giữa Champagne thật và các loại rượu vang có ga khác. Quy trình sản xuất, vùng miền và đặc điểm hương vị độc đáo của từng loại.",
+      "content": "Champagne và Sparkling Wine (rượu vang có ga) thường được nhắc đến như những loại đồ uống sang trọng, hoàn hảo cho các dịp kỷ niệm và lễ hội. Tuy nhiên, không phải ai cũng hiểu rõ sự khác biệt giữa chúng.\n\nĐiểm khác biệt quan trọng nhất là xuất xứ địa lý. Champagne chỉ được sản xuất tại vùng Champagne của Pháp, tuân theo các quy định nghiêm ngặt. Bất kỳ loại rượu vang có ga nào được sản xuất bên ngoài khu vực này, dù sử dụng cùng phương pháp, đều không thể gọi là Champagne.\n\nVề phương pháp sản xuất, Champagne được làm theo phương pháp truyền thống (Méthode Champenoise hoặc Méthode Traditionnelle), trong đó quá trình lên men thứ cấp diễn ra trong chai. Sparkling Wine có thể được sản xuất bằng nhiều phương pháp khác nhau, bao gồm cả Méthode Traditionnelle, Charmat (lên men trong bồn), và phương pháp tiêm CO2.\n\nGiống nho sử dụng cũng là một yếu tố phân biệt. Champagne chủ yếu được làm từ ba giống nho: Chardonnay, Pinot Noir và Pinot Meunier. Trong khi đó, Sparkling Wine có thể được sản xuất từ nhiều giống nho khác nhau tùy thuộc vào vùng sản xuất.\n\nVề hương vị, Champagne thường có độ phức tạp cao hơn với các note bánh mì, bánh quy, hạt rang và trái cây. Sparkling Wine có thể có hương vị đa dạng từ ngọt đến khô, từ nhẹ nhàng đến đậm đà tùy thuộc vào phương pháp sản xuất và giống nho.\n\nMặc dù có những khác biệt, cả Champagne và Sparkling Wine đều có thể mang lại trải nghiệm thưởng thức tuyệt vời. Việc lựa chọn giữa chúng phụ thuộc vào sở thích cá nhân, dịp thưởng thức và ngân sách của bạn.",
+      "image": "/Product/6.jpg",
+      "date": "2024-01-12",
+      "author": "Admin",
+      "views": 203,
+      "category": "Tin tức"
+    },
+    {
+      "id": "3",
+      "title": "RƯỢU VANG ROSÉ - XU HƯỚNG MỚI",
+      "excerpt": "Rosé không chỉ là xu hướng mùa hè mà còn là lựa chọn hoàn hảo cho nhiều dịp khác nhau. Khám phá thế giới màu hồng quyến rũ của rượu vang Rosé.",
+      "content": "Rượu vang Rosé đã trở thành một hiện tượng toàn cầu trong những năm gần đây, vượt ra khỏi định kiến là loại rượu vang mùa hè đơn giản. Với màu sắc hồng quyến rũ từ nhạt đến đậm, Rosé đang chinh phục cả những người sành rượu vang lẫn những người mới bắt đầu.\n\nRosé được sản xuất từ nho đỏ, nhưng vỏ nho chỉ được ngâm trong nước ép trong thời gian ngắn - từ vài giờ đến vài ngày - để tạo ra màu hồng đặc trưng. Phương pháp này khác với rượu vang đỏ (vỏ nho được ngâm lâu hơn) và rượu vang trắng (vỏ nho được tách ra ngay lập tức).\n\nHương vị của Rosé đa dạng tùy thuộc vào giống nho và vùng sản xuất. Rosé từ Provence, Pháp - vùng đất nổi tiếng với Rosé - thường nhẹ nhàng với hương vị trái cây đỏ, cam quýt và thảo mộc. Rosé từ Tây Ban Nha có thể đậm đà hơn với hương vị dâu tây và dưa hấu, trong khi Rosé từ California thường có vị ngọt hơn với hương vị trái cây nhiệt đới.\n\nMột trong những lý do khiến Rosé trở nên phổ biến là tính linh hoạt của nó. Rosé có thể kết hợp với nhiều loại món ăn từ hải sản, salad, đến thịt nướng và thậm chí là món cay. Nó cũng là lựa chọn hoàn hảo cho các buổi tiệc ngoài trời, picnic, hoặc đơn giản là thưởng thức trong một buổi chiều nắng đẹp.\n\nXu hướng Rosé không chỉ dừng lại ở việc thưởng thức rượu vang. Nó đã lan rộng sang các lĩnh vực khác như thời trang, thiết kế nội thất và thậm chí là mạng xã hội với hashtag #RoséAllDay trở nên phổ biến.\n\nDù bạn là người yêu thích rượu vang lâu năm hay mới bắt đầu khám phá thế giới rượu vang, Rosé chắc chắn là một loại rượu đáng để thử. Với sự đa dạng về phong cách và giá cả, luôn có một chai Rosé phù hợp với khẩu vị và ngân sách của bạn.",
+      "image": "/Product/7.jpg",
+      "date": "2024-01-10",
+      "author": "Admin",
+      "views": 189,
+      "category": "Hướng dẫn"
+    },
+    {
+      "id": "4",
+      "title": "RƯỢU VANG TRẮNG - SỰ THANH THOÁT",
+      "excerpt": "Rượu vang trắng với hương vị thanh thoát, tươi mát là lựa chọn tuyệt vời cho những ngày hè nóng bức. Tìm hiểu các giống nho và phong cách sản xuất khác nhau.",
+      "content": "Rượu vang trắng, với đặc tính thanh thoát và tươi mát, đã trở thành người bạn đồng hành lý tưởng cho những bữa ăn nhẹ nhàng và những ngày hè nóng bức. Khác với rượu vang đỏ thường được biết đến với vị đậm đà và cấu trúc phức tạp, rượu vang trắng mang đến sự tinh tế và sảng khoái riêng biệt.\n\nRượu vang trắng được sản xuất từ nhiều giống nho khác nhau, mỗi loại mang đến một hương vị và đặc tính riêng. Chardonnay, một trong những giống nho phổ biến nhất, có thể tạo ra những chai rượu từ nhẹ nhàng, tươi mát đến đậm đà, phức tạp tùy thuộc vào cách sản xuất. Sauvignon Blanc nổi tiếng với hương thơm của cỏ cắt mới, cam quýt và đôi khi là hương vị của quả lý chua. Riesling mang đến sự cân bằng tuyệt vời giữa độ ngọt và độ chua, trong khi Pinot Grigio/Pinot Gris lại nhẹ nhàng với hương vị trái cây như lê và táo.\n\nPhong cách sản xuất cũng ảnh hưởng lớn đến hương vị của rượu vang trắng. Một số được ủ trong thùng gỗ sồi, tạo ra hương vị phức tạp hơn với note của vani, bơ và bánh nướng. Những loại khác được ủ trong thùng thép không gỉ để giữ lại hương vị trái cây tươi mát.\n\nVề việc kết hợp với món ăn, rượu vang trắng là lựa chọn hoàn hảo cho hải sản, gà, các món salad và phô mai nhẹ. Chardonnay ủ trong thùng gỗ sồi phù hợp với các món có sốt kem, trong khi Sauvignon Blanc lại là bạn đồng hành tuyệt vời của các món có vị chua như salad với giấm hoặc món có chanh.\n\nNhiệt độ phục vụ cũng rất quan trọng đối với rượu vang trắng. Thông thường, rượu vang trắng nhẹ nên được phục vụ ở nhiệt độ từ 7-10°C, trong khi những loại đậm đà hơn có thể được phục vụ ở nhiệt độ cao hơn một chút, khoảng 10-13°C.\n\nDù bạn đang tìm kiếm một chai rượu để thưởng thức trong một buổi chiều nắng đẹp hay để kết hợp với bữa tối tinh tế, rượu vang trắng với sự đa dạng về phong cách và hương vị chắc chắn sẽ không làm bạn thất vọng.",
+      "image": "/Product/3.jpg",
+      "date": "2024-01-08",
+      "author": "Admin",
+      "views": 167,
+      "category": "Kiến thức rượu vang"
+    },
+    {
+      "id": "5",
+      "title": "NGHỆ THUẬT PHỐI ĐỒ VỚI RƯỢU VANG",
+      "excerpt": "Học cách kết hợp rượu vang với các món ăn để tạo nên trải nghiệm ẩm thực hoàn hảo. Từ nguyên tắc cơ bản đến những bí quyết của các chuyên gia.",
+      "content": "Nghệ thuật phối đồ với rượu vang là một kỹ năng có thể nâng cao trải nghiệm ẩm thực của bạn lên một tầm cao mới. Khi được kết hợp đúng cách, rượu vang và thức ăn có thể bổ sung cho nhau, tạo nên hương vị hài hòa và phong phú hơn so với khi thưởng thức riêng lẻ.\n\nNguyên tắc cơ bản nhất trong việc phối đồ là cân bằng giữa cường độ của rượu vang và món ăn. Món ăn nhẹ nhàng như hải sản hoặc salad sẽ phù hợp với rượu vang trắng nhẹ, trong khi các món thịt đỏ đậm đà lại cần những chai rượu vang đỏ mạnh mẽ để cân bằng.\n\nMột nguyên tắc khác là xem xét hương vị chủ đạo của món ăn. Món có vị chua như salad với giấm hoặc món có chanh sẽ phù hợp với rượu vang có độ chua cao như Sauvignon Blanc. Món ngọt cần rượu vang ngọt hơn, nếu không rượu sẽ trở nên quá chua khi uống cùng món ngọt.\n\nVề màu sắc, có một quy tắc truyền thống là 'trắng với trắng, đỏ với đỏ' - rượu vang trắng với thịt trắng (gà, hải sản) và rượu vang đỏ với thịt đỏ (bò, cừu). Tuy nhiên, ngày nay, nhiều chuyên gia ẩm thực đã phá vỡ quy tắc này và tập trung vào cách chế biến món ăn hơn là loại thịt. Ví dụ, gà nướng với sốt nấm có thể kết hợp tốt với rượu vang đỏ nhẹ như Pinot Noir.\n\nĐối với món cay, rượu vang có độ ngọt nhẹ như Riesling hoặc Gewürztraminer thường là lựa chọn tốt vì độ ngọt giúp cân bằng vị cay. Với món béo, rượu vang có độ chua cao hoặc tannin cao sẽ giúp làm sạch vị giác.\n\nPhô mai là một trường hợp đặc biệt trong việc phối đồ. Phô mai mềm và nhẹ như Brie hoặc Camembert phù hợp với rượu vang trắng đầy đặn như Chardonnay, trong khi phô mai cứng và đậm đà như Cheddar già hoặc Parmesan lại kết hợp tốt với rượu vang đỏ có cấu trúc như Cabernet Sauvignon.\n\nCuối cùng, đừng quên về món tráng miệng. Rượu vang tráng miệng như Sauternes hoặc Port thường ngọt hơn món tráng miệng để tạo sự cân bằng.\n\nNhớ rằng, mặc dù có những nguyên tắc hướng dẫn, nhưng sở thích cá nhân vẫn là yếu tố quan trọng nhất. Đừng ngại thử nghiệm và tìm ra những kết hợp phù hợp với khẩu vị của bạn.",
+      "image": "/Product/8.jpg",
+      "date": "2024-01-05",
+      "author": "Admin",
+      "views": 234,
+      "category": "Sự kiện"
+    },
+    {
+      "id": "6",
+      "title": "BẢO QUẢN RƯỢU VANG ĐÚNG CÁCH",
+      "excerpt": "Hướng dẫn chi tiết cách bảo quản rượu vang để giữ nguyên chất lượng và hương vị. Nhiệt độ, độ ẩm, ánh sáng và vị trí đặt chai đều có ảnh hưởng quan trọng.",
+      "content": "Bảo quản rượu vang đúng cách là yếu tố quan trọng để duy trì và thậm chí nâng cao chất lượng của rượu theo thời gian. Dù bạn là người sưu tầm lâu năm hay chỉ đơn giản là muốn giữ một vài chai rượu cho những dịp đặc biệt, hiểu biết về cách bảo quản rượu vang sẽ giúp bạn tận hưởng trọn vẹn hương vị của từng chai rượu.\n\nNhiệt độ là yếu tố quan trọng nhất trong việc bảo quản rượu vang. Nhiệt độ lý tưởng cho việc bảo quản lâu dài là từ 12-14°C. Quan trọng hơn cả nhiệt độ chính xác là sự ổn định của nhiệt độ. Những thay đổi nhiệt độ đột ngột có thể làm hỏng rượu vang, vì vậy hãy tránh đặt rượu ở những nơi có nhiệt độ dao động mạnh như gần cửa sổ hoặc lò sưởi.\n\nĐộ ẩm cũng đóng vai trò quan trọng, đặc biệt đối với rượu vang được đậy bằng nút bần tự nhiên. Độ ẩm lý tưởng là khoảng 70%. Độ ẩm quá thấp có thể làm nút bần khô và co lại, cho phép không khí xâm nhập vào chai và làm hỏng rượu. Ngược lại, độ ẩm quá cao có thể làm hỏng nhãn chai và thậm chí là nấm mốc.\n\nÁnh sáng, đặc biệt là ánh sáng tia cực tím, có thể làm hỏng rượu vang bằng cách phân hủy các hợp chất hương vị. Đây là lý do tại sao rượu vang thường được đóng chai trong chai màu tối. Tuy nhiên, ngay cả với chai màu tối, rượu vang vẫn nên được bảo quản tránh ánh sáng trực tiếp.\n\nVị trí đặt chai cũng quan trọng. Rượu vang nên được đặt nằm ngang để giữ cho nút bần luôn ẩm và giãn nở, tạo thành một lớp niêm phong chặt chẽ. Điều này đặc biệt quan trọng đối với rượu vang được bảo quản trong thời gian dài.\n\nRung động cũng có thể ảnh hưởng tiêu cực đến rượu vang bằng cách đẩy nhanh các phản ứng hóa học và làm xáo trộn cặn trong rượu vang già. Vì vậy, hãy tránh đặt rượu vang gần các nguồn rung động như máy giặt hoặc tủ lạnh.\n\nCuối cùng, mùi mạnh có thể xâm nhập qua nút bần và ảnh hưởng đến hương vị của rượu vang. Vì vậy, tránh bảo quản rượu vang gần các nguồn mùi mạnh như sơn, xăng dầu hoặc thực phẩm có mùi nồng.\n\nNếu bạn không có điều kiện để tạo ra môi trường bảo quản lý tưởng, một tủ rượu điện tử có thể là giải pháp tốt. Các tủ này được thiết kế để duy trì nhiệt độ và độ ẩm ổn định, bảo vệ rượu vang khỏi ánh sáng và rung động.\n\nNhớ rằng, không phải tất cả rượu vang đều được thiết kế để lưu trữ lâu dài. Hầu hết rượu vang trắng và rosé nên được thưởng thức trong vòng 1-3 năm kể từ khi sản xuất, trong khi một số rượu vang đỏ cao cấp có thể cải thiện hương vị qua nhiều thập kỷ nếu được bảo quản đúng cách.",
+      "image": "/Product/1.jpg",
+      "date": "2024-01-03",
+      "author": "Admin",
+      "views": 198,
+      "category": "Hướng dẫn"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "role": "Khách hàng thân thiết",
+      "content": "Tôi rất hài lòng với chất lượng rượu vang tại Wine House. Dịch vụ tuyệt vời và sản phẩm chất lượng cao."
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị B",
+      "role": "Chuyên gia ẩm thực",
+      "content": "Wine House luôn là địa chỉ tin cậy khi tôi cần tìm những chai rượu vang đặc biệt cho nhà hàng của mình."
+    },
+    {
+      "id": "3",
+      "name": "Lê Văn C",
+      "role": "Người sưu tầm rượu vang",
+      "content": "Bộ sưu tập rượu vang tại Wine House rất đa dạng và chất lượng. Tôi luôn tìm thấy những chai rượu độc đáo ở đây."
+    }
+  ],
+  "about": {
+    "title": "GIỚI THIỆU",
+    "content": "Wine House tự hào mang đến những chai rượu vang chất lượng cao từ khắp nơi trên thế giới. Với hơn 40 năm kinh nghiệm trong ngành, chúng tôi cam kết cung cấp những sản phẩm tốt nhất với giá cả hợp lý. Từ những chai rượu vang đỏ đậm đà đến những chai champagne tinh tế, Wine House là điểm đến lý tưởng cho những người yêu thích rượu vang.",
+    "image": "/Image Rudu/df3218bb45274009c6c3d5de8a6b98bf.jpg"
+  },
+  "featured": {
+    "id": 9,
+    "name": "ROOT:1 CABERNET SAUVIGNON",
+    "price": "1.580.000",
+    "originalPrice": "1.750.000",
+    "image": "/Product/9.jpg",
+    "countdown": {
+      "days": 334,
+      "hours": 26,
+      "minutes": 50,
+      "seconds": 15
+    }
+  },
+  "gallery": [
+    {
+      "id": "1",
+      "src": "/Image_Rudu/47bb1d096966d29c98926a156318c767.jpg",
+      "alt": "Wine barrels in cellar",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "2",
+      "src": "/Image_Rudu/Depositphotos_6971969_original-1240x698.jpg",
+      "alt": "RUOU wine cellar",
+      "gridClass": "col-span-6 md:col-span-6 row-span-2",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "3",
+      "src": "/Image_Rudu/Depositphotos_3010981_original1.jpg",
+      "alt": "Fresh green grapes",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "4",
+      "src": "/Image_Rudu/product.jpg",
+      "alt": "White grapes with wine bottle",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "5",
+      "src": "/Image_Rudu/8bd367294fd54ff78565e6a73329e848.jpg",
+      "alt": "Wine glass in vineyard",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "6",
+      "src": "/Image_Rudu/Depositphotos_3010981_original1.jpg",
+      "alt": "Wine cork and accessories",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "7",
+      "src": "/Image_Rudu/slide-1-2050x898.jpg",
+      "alt": "Wine bottles collection",
+      "gridClass": "col-span-6 md:col-span-3 row-span-2",
+      "width": 400,
+      "height": 400
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đang giao hàng",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 2605000,
+      "subtotal": 2590000,
+      "totalItem": 7,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-02-15T08:30:00.000Z",
+      "updatedAt": "2025-08-21T02:59:13.557Z",
+      "isReviewed": true
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "addressId": "2",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 385000,
+      "subtotal": 370000,
+      "totalItem": 1,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-02-15T08:30:00.000Z",
+      "updatedAt": "2024-02-15T08:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "addressId": "3",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 755000,
+      "subtotal": 740000,
+      "totalItem": 2,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-03-10T10:15:00.000Z",
+      "updatedAt": "2025-08-21T03:02:48.764Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "addressId": "4",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 903000,
+      "subtotal": 1110000,
+      "totalItem": 3,
+      "shippingFee": 15000,
+      "discount": 20,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-04-05T14:20:00.000Z",
+      "updatedAt": "2024-04-05T14:20:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "addressId": "5",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 1865000,
+      "subtotal": 1850000,
+      "totalItem": 5,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-05-20T16:45:00.000Z",
+      "updatedAt": "2024-05-20T16:45:00.000Z"
+    },
+    {
+      "id": "6",
+      "userId": "8",
+      "addressId": "6",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 1495000,
+      "subtotal": 1480000,
+      "totalItem": 4,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-06-10T11:30:00.000Z",
+      "updatedAt": "2024-06-10T11:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã hủy",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 755000,
+      "subtotal": 740000,
+      "totalItem": 2,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2024-07-01T09:00:00.000Z",
+      "updatedAt": "2024-07-01T09:00:00.000Z"
+    },
+    {
+      "id": "50ea",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã hoàn thành",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 5755000,
+      "subtotal": 5740000,
+      "totalItem": 4,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-01T10:16:06.051Z",
+      "updatedAt": "2025-08-01T10:16:06.056Z",
+      "isReviewed": true
+    },
+    {
+      "id": "3112",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã hủy",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 1865000,
+      "subtotal": 1850000,
+      "totalItem": 5,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-04T06:12:28.169Z",
+      "updatedAt": "2025-08-04T06:12:28.169Z"
+    },
+    {
+      "id": "698c",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã hủy",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 1296,
+      "subtotal": 1440,
+      "totalItem": 2,
+      "shippingFee": 0,
+      "discount": 10,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-05T08:11:09.835Z",
+      "updatedAt": "2025-08-05T08:11:09.835Z"
+    },
+    {
+      "id": "13d0",
+      "userId": "2",
+      "addressId": "2",
+      "status": "Đã duyệt",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 905000,
+      "subtotal": 890000,
+      "totalItem": 1,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-06T05:51:39.333Z",
+      "updatedAt": "2025-08-21T03:09:30.775Z"
+    },
+    {
+      "id": "fa04",
+      "userId": "2",
+      "addressId": "2",
+      "status": "Đã đặt, chờ duyệt",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 6765000,
+      "subtotal": 6750000,
+      "totalItem": 7,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-13T05:51:32.149Z",
+      "updatedAt": "2025-08-13T05:51:32.149Z"
+    },
+    {
+      "id": "3e9c",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã đặt, chờ duyệt",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 3515000,
+      "subtotal": 3500000,
+      "totalItem": 5,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-19T11:22:10.913Z",
+      "updatedAt": "2025-08-19T11:22:10.924Z"
+    },
+    {
+      "id": "1eb4",
+      "userId": "2",
+      "addressId": "1",
+      "status": "Đã đặt, chờ duyệt",
+      "store": "HÀ ĐÔNG",
+      "totalPrice": 15680,
+      "subtotal": 680,
+      "totalItem": 1,
+      "shippingFee": 15000,
+      "discount": 0,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "orderDate": "2025-08-19T11:29:22.719Z",
+      "updatedAt": "2025-08-19T11:29:22.719Z"
+    }
+  ],
+  "orderDetails": [
+    {
+      "id": "1",
+      "orderId": "1",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 5,
+      "price": 350000,
+      "totalPrice": 1750000
+    },
+    {
+      "id": "2",
+      "orderId": "1",
+      "productId": "2",
+      "product": {
+        "id": "2",
+        "name": "Rượu vang Đà Lạt Reserve",
+        "slug": "ruou-vang-da-lat-reserve",
+        "description": "Rượu vang đỏ cao cấp từ Đà Lạt với quy trình sản xuất đặc biệt.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/3.jpg",
+        "images": [
+          "/Product/3.jpg",
+          "/Product/4.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 30,
+        "isNew": true,
+        "isHot": false,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.8,
+        "reviewCount": 8,
+        "status": "active",
+        "createdAt": "2024-02-10T10:00:00.000Z",
+        "updatedAt": "2024-07-20T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 300000,
+      "totalPrice": 600000
+    },
+    {
+      "id": "3",
+      "orderId": "2",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 1,
+      "price": 350000,
+      "totalPrice": 350000
+    },
+    {
+      "id": "4",
+      "orderId": "3",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 350000,
+      "totalPrice": 700000
+    },
+    {
+      "id": "5",
+      "orderId": "4",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 1,
+      "price": 350000,
+      "totalPrice": 350000
+    },
+    {
+      "id": "6",
+      "orderId": "4",
+      "productId": "2",
+      "product": {
+        "id": "2",
+        "name": "Rượu vang Đà Lạt Reserve",
+        "slug": "ruou-vang-da-lat-reserve",
+        "description": "Rượu vang đỏ cao cấp từ Đà Lạt với quy trình sản xuất đặc biệt.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/3.jpg",
+        "images": [
+          "/Product/3.jpg",
+          "/Product/4.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 30,
+        "isNew": true,
+        "isHot": false,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.8,
+        "reviewCount": 8,
+        "status": "active",
+        "createdAt": "2024-02-10T10:00:00.000Z",
+        "updatedAt": "2024-07-20T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 300000,
+      "totalPrice": 600000
+    },
+    {
+      "id": "7",
+      "orderId": "5",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 350000,
+      "totalPrice": 700000
+    },
+    {
+      "id": "8",
+      "orderId": "5",
+      "productId": "2",
+      "product": {
+        "id": "2",
+        "name": "Rượu vang Đà Lạt Reserve",
+        "slug": "ruou-vang-da-lat-reserve",
+        "description": "Rượu vang đỏ cao cấp từ Đà Lạt với quy trình sản xuất đặc biệt.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/3.jpg",
+        "images": [
+          "/Product/3.jpg",
+          "/Product/4.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 30,
+        "isNew": true,
+        "isHot": false,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.8,
+        "reviewCount": 8,
+        "status": "active",
+        "createdAt": "2024-02-10T10:00:00.000Z",
+        "updatedAt": "2024-07-20T10:00:00.000Z"
+      },
+      "quantity": 3,
+      "price": 300000,
+      "totalPrice": 900000
+    },
+    {
+      "id": "9",
+      "orderId": "6",
+      "productId": "2",
+      "product": {
+        "id": "2",
+        "name": "Rượu vang Đà Lạt Reserve",
+        "slug": "ruou-vang-da-lat-reserve",
+        "description": "Rượu vang đỏ cao cấp từ Đà Lạt với quy trình sản xuất đặc biệt.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/3.jpg",
+        "images": [
+          "/Product/3.jpg",
+          "/Product/4.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 30,
+        "isNew": true,
+        "isHot": false,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.8,
+        "reviewCount": 8,
+        "status": "active",
+        "createdAt": "2024-02-10T10:00:00.000Z",
+        "updatedAt": "2024-07-20T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 300000,
+      "totalPrice": 600000
+    },
+    {
+      "id": "10",
+      "orderId": "6",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "Rượu vang Đà Lạt Cabernet Sauvignon",
+        "slug": "ruou-vang-da-lat-cabernet-sauvignon",
+        "description": "Rượu vang đỏ Đà Lạt với hương vị đậm đà, thích hợp cho các bữa tiệc trang trọng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/1.jpg",
+        "images": [
+          "/Product/1.jpg",
+          "/Product/2.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 50,
+        "isNew": false,
+        "isHot": true,
+        "isSale": true,
+        "discount": 25,
+        "rating": 4.5,
+        "reviewCount": 12,
+        "status": "active",
+        "createdAt": "2024-01-15T10:00:00.000Z",
+        "updatedAt": "2024-07-15T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 350000,
+      "totalPrice": 700000
+    },
+    {
+      "id": "11",
+      "orderId": 7,
+      "productId": 2,
+      "product": {
+        "id": "2",
+        "name": "Rượu vang Đà Lạt Reserve",
+        "slug": "ruou-vang-da-lat-reserve",
+        "description": "Rượu vang đỏ cao cấp từ Đà Lạt với quy trình sản xuất đặc biệt.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/3.jpg",
+        "images": [
+          "/Product/3.jpg",
+          "/Product/4.jpg"
+        ],
+        "categoryId": 19,
+        "stock": 30,
+        "isNew": true,
+        "isHot": false,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.8,
+        "reviewCount": 8,
+        "status": "active",
+        "createdAt": "2024-02-10T10:00:00.000Z",
+        "updatedAt": "2024-07-20T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 300000,
+      "totalPrice": 600000
+    },
+    {
+      "id": "466f",
+      "orderId": "50ea",
+      "productId": "4",
+      "product": {
+        "id": "4",
+        "name": "Rượu vang Đà Lạt Rosé",
+        "slug": "ruou-vang-da-lat-rose",
+        "description": "Rượu vang hồng Đà Lạt với màu sắc quyến rũ và hương vị nhẹ nhàng.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/8.jpg",
+        "images": [
+          "/Product/8.jpg",
+          "/Product/9.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 25,
+        "isNew": false,
+        "isHot": false,
+        "isSale": true,
+        "discount": 18,
+        "rating": 4.6,
+        "reviewCount": 10,
+        "status": "active",
+        "createdAt": "2024-03-05T10:00:00.000Z",
+        "updatedAt": "2024-07-22T10:00:00.000Z"
+      },
+      "quantity": 1,
+      "price": 370000,
+      "totalPrice": 370000
+    },
+    {
+      "id": "828f",
+      "orderId": "50ea",
+      "productId": "5",
+      "product": {
+        "id": "5",
+        "name": "Champagne Moët & Chandon",
+        "slug": "champagne-moet-chandon",
+        "description": "Champagne cao cấp từ Pháp với hương vị tinh tế và bọt khí mịn màng.",
+        "price": 2500000,
+        "originalPrice": 2800000,
+        "image": "/Product/5.jpg",
+        "images": [
+          "/Product/5.jpg",
+          "/Product/6.jpg"
+        ],
+        "categoryId": "15",
+        "stock": 15,
+        "isNew": true,
+        "isHot": true,
+        "isSale": false,
+        "discount": 0,
+        "rating": 5,
+        "reviewCount": 5,
+        "status": "active",
+        "createdAt": "2024-04-01T10:00:00.000Z",
+        "updatedAt": "2024-07-25T10:00:00.000Z"
+      },
+      "quantity": 2,
+      "price": 2500000,
+      "totalPrice": 5000000
+    },
+    {
+      "id": "0db4",
+      "orderId": "50ea",
+      "productId": "3",
+      "product": {
+        "id": "3",
+        "name": "Rượu vang trắng Đà Lạt Chardonnay",
+        "slug": "ruou-vang-trang-da-lat-chardonnay",
+        "description": "Rượu vang trắng Đà Lạt với hương vị tươi mát, thích hợp cho mùa hè.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/6.jpg",
+        "images": [
+          "/Product/6.jpg",
+          "/Product/7.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 40,
+        "isNew": false,
+        "isHot": true,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.3,
+        "reviewCount": 15,
+        "status": "active",
+        "createdAt": "2024-01-20T10:00:00.000Z",
+        "updatedAt": "2024-07-18T10:00:00.000Z"
+      },
+      "quantity": 1,
+      "price": 370000,
+      "totalPrice": 370000
+    },
+    {
+      "id": "710a",
+      "orderId": "3112",
+      "productId": "3",
+      "product": {
+        "id": "3",
+        "name": "Rượu vang trắng Đà Lạt Chardonnay",
+        "slug": "ruou-vang-trang-da-lat-chardonnay",
+        "description": "Rượu vang trắng Đà Lạt với hương vị tươi mát, thích hợp cho mùa hè.",
+        "price": 370000,
+        "originalPrice": 450000,
+        "image": "/Product/5.jpg",
+        "images": [
+          "/Product/5.jpg",
+          "/Product/6.jpg"
+        ],
+        "categoryId": "19",
+        "stock": 40,
+        "isNew": false,
+        "isHot": true,
+        "isSale": false,
+        "discount": 0,
+        "rating": 4.3,
+        "reviewCount": 15,
+        "status": "active",
+        "createdAt": "2024-01-20T10:00:00.000Z",
+        "updatedAt": "2024-07-18T10:00:00.000Z"
+      },
+      "quantity": 5,
+      "price": 370000,
+      "totalPrice": 1850000
+    },
+    {
+      "id": "2c61",
+      "orderId": "698c",
+      "productId": 5,
+      "product": {
+        "id": 5,
+        "name": "TORELLO MARC",
+        "price": "850.000",
+        "image": "/Product/5.jpg",
+        "category": "Champagne",
+        "description": "Champagne cao cấp với bọt khí mịn màng và hương vị phức tạp. Được ủ lâu để tạo nên độ tinh tế đặc biệt.",
+        "rating": 5,
+        "reviews": 27,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Tây Ban Nha",
+          "Độ cồn: 12%",
+          "Dung tích: 750ml",
+          "Phương pháp: Méthode Champenoise"
+        ]
+      },
+      "quantity": 1,
+      "price": "850.000",
+      "totalPrice": 850000
+    },
+    {
+      "id": "0824",
+      "orderId": "698c",
+      "productId": 3,
+      "product": {
+        "id": 3,
+        "name": "TORELLO MOSAICS 05",
+        "price": "590.000",
+        "originalPrice": "650.000",
+        "image": "/Product/3.jpg",
+        "category": "Rượu Vang Trắng",
+        "description": "Rượu vang trắng với thiết kế nhãn hiện đại, hương vị tươi mát và cân bằng. Phù hợp với hải sản và món ăn nhẹ.",
+        "rating": 4,
+        "reviews": 31,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Tây Ban Nha",
+          "Độ cồn: 12.5%",
+          "Dung tích: 750ml",
+          "Phong cách: Hiện đại"
+        ]
+      },
+      "quantity": 1,
+      "price": "590.000",
+      "totalPrice": 590000
+    },
+    {
+      "id": "c8af",
+      "orderId": "13d0",
+      "productId": "10",
+      "product": {
+        "id": "10",
+        "name": "PRIMARIO PUGLIA 2000",
+        "price": 890000,
+        "originalPrice": 980000,
+        "image": "/Product/10.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ vintage từ vùng Puglia, Italia. Được sản xuất từ năm 2000 với hương vị đậm đà và truyền thống.",
+        "rating": 4,
+        "reviews": 15,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Italia",
+          "Độ cồn: 13.5%",
+          "Dung tích: 750ml",
+          "Năm sản xuất: 2000"
+        ]
+      },
+      "quantity": 1,
+      "price": 890000,
+      "totalPrice": 890000
+    },
+    {
+      "id": "7ba9",
+      "orderId": "fa04",
+      "productId": "9",
+      "product": {
+        "id": "9",
+        "name": "ROOT:1 CABERNET SAUVIGNON",
+        "price": 1580000,
+        "originalPrice": 1750000,
+        "image": "/Product/9.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ cao cấp từ nho Cabernet Sauvignon, ủ trong thùng gỗ sồi với thiết kế chai sang trọng và hương vị đẳng cấp.",
+        "rating": 5,
+        "reviews": 8,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Úc",
+          "Độ cồn: 14.5%",
+          "Dung tích: 750ml",
+          "Thời gian ủ: 18 tháng"
+        ]
+      },
+      "quantity": 1,
+      "price": 1580000,
+      "totalPrice": 1580000
+    },
+    {
+      "id": "5d70",
+      "orderId": "fa04",
+      "productId": "4",
+      "product": {
+        "id": "4",
+        "name": "TORELLO DOLÇ",
+        "price": 720000,
+        "originalPrice": 800000,
+        "image": "/Product/4.jpg",
+        "category": "Rượu Vang Ngọt",
+        "description": "Rượu vang ngọt cao cấp với bọt khí tự nhiên, hương vị ngọt ngào và thanh thoát. Lý tưởng cho tráng miệng.",
+        "rating": 5,
+        "reviews": 12,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Tây Ban Nha",
+          "Độ cồn: 11%",
+          "Dung tích: 750ml",
+          "Loại: Sparkling Sweet"
+        ]
+      },
+      "quantity": 1,
+      "price": 720000,
+      "total": 720000
+    },
+    {
+      "id": "9cfc",
+      "orderId": "fa04",
+      "productId": "10",
+      "product": {
+        "id": "10",
+        "name": "PRIMARIO PUGLIA 2000",
+        "price": 890000,
+        "originalPrice": 980000,
+        "image": "/Product/10.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ vintage từ vùng Puglia, Italia. Được sản xuất từ năm 2000 với hương vị đậm đà và truyền thống.",
+        "rating": 4,
+        "reviews": 15,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Italia",
+          "Độ cồn: 13.5%",
+          "Dung tích: 750ml",
+          "Năm sản xuất: 2000"
+        ]
+      },
+      "quantity": 5,
+      "price": 890000,
+      "totalPrice": 4450000
+    },
+    {
+      "id": "3f4f",
+      "orderId": "3e9c",
+      "productId": "10",
+      "product": {
+        "id": "10",
+        "name": "PRIMARIO PUGLIA 2000",
+        "price": 890000,
+        "originalPrice": 980000,
+        "image": "/Product/10.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ vintage từ vùng Puglia, Italia. Được sản xuất từ năm 2000 với hương vị đậm đà và truyền thống.",
+        "rating": 4,
+        "reviews": 15,
+        "stock": 100,
+        "features": [
+          "Xuất xứ: Italia",
+          "Độ cồn: 13.5%",
+          "Dung tích: 750ml",
+          "Năm sản xuất: 2000"
+        ],
+        "categoryId": 3,
+        "status": "",
+        "slug": "2"
+      },
+      "quantity": 2,
+      "price": 890000,
+      "totalPrice": 1780000
+    },
+    {
+      "id": "1967",
+      "orderId": "3e9c",
+      "productId": "11",
+      "product": {
+        "id": "11",
+        "name": "ADMIT ONE RED BLEND",
+        "price": 750000,
+        "originalPrice": 850000,
+        "image": "/Product/11.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ blend hiện đại với thiết kế nhãn độc đáo. Hương vị cân bằng giữa các giống nho khác nhau tạo nên sự phức hợp thú vị.",
+        "rating": 4,
+        "reviews": 22,
+        "stock": 400,
+        "features": [
+          "Xuất xứ: Úc",
+          "Độ cồn: 14%",
+          "Dung tích: 750ml",
+          "Phong cách: Modern Blend"
+        ]
+      },
+      "quantity": 1,
+      "price": 750000,
+      "totalPrice": 750000
+    },
+    {
+      "id": "926f",
+      "orderId": "3e9c",
+      "productId": "12",
+      "product": {
+        "id": "12",
+        "name": "EL GUAPO RED WINE",
+        "price": 520000,
+        "originalPrice": 580000,
+        "image": "/Product/12.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ với thiết kế nhãn nghệ thuật đầy màu sắc, thể hiện tinh thần vui tươi và sáng tạo. Hương vị trái cây đậm đà.",
+        "rating": 4,
+        "reviews": 28,
+        "stock": 100,
+        "features": [
+          "Xuất xứ: Argentina",
+          "Độ cồn: 13.5%",
+          "Dung tích: 750ml",
+          "Phong cách: Artistic"
+        ]
+      },
+      "quantity": 1,
+      "price": 520000,
+      "totalPrice": 520000
+    },
+    {
+      "id": "a552",
+      "orderId": "3e9c",
+      "productId": "1",
+      "product": {
+        "id": "1",
+        "name": "LA CAPRA VIOGNIER",
+        "price": 450000,
+        "originalPrice": 520000,
+        "image": "/Product/1.jpg",
+        "category": "Rượu Vang Trắng",
+        "description": "Rượu vang trắng Viognier với hương thơm đặc trưng của hoa và trái cây nhiệt đới. Vị cân bằng giữa độ chua tự nhiên và độ ngọt nhẹ.",
+        "rating": 4,
+        "reviews": 23,
+        "stock": 100,
+        "features": [
+          "Xuất xứ: Tây Ban Nha",
+          "Độ cồn: 13.5%",
+          "Dung tích: 750ml",
+          "Nhiệt độ phục vụ: 8-10°C"
+        ],
+        "categoryId": 4,
+        "isNew": true,
+        "slug": "2"
+      },
+      "quantity": 1,
+      "price": 450000,
+      "totalPrice": 450000
+    },
+    {
+      "id": "0919",
+      "orderId": "1eb4",
+      "productId": 2,
+      "product": {
+        "id": 2,
+        "name": "RAMONDA ROURES",
+        "price": "680.000",
+        "originalPrice": "750.000",
+        "image": "/Product/2.jpg",
+        "category": "Rượu Vang Đỏ",
+        "description": "Rượu vang đỏ cao cấp với thiết kế nhãn nghệ thuật độc đáo. Hương vị phức hợp với note của trái cây chín và gia vị.",
+        "rating": 5,
+        "reviews": 18,
+        "inStock": true,
+        "features": [
+          "Xuất xứ: Tây Ban Nha",
+          "Độ cồn: 14%",
+          "Dung tích: 750ml",
+          "Thời gian ủ: 12 tháng"
+        ]
+      },
+      "quantity": 1,
+      "price": "680.000",
+      "totalPrice": 680000
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": "2",
+      "items": [
+        {
+          "productId": "11",
+          "product": {
+            "status": "active",
+            "reviewCount": 22,
+            "id": "11",
+            "name": "ADMIT ONE RED BLEND",
+            "price": 750000,
+            "originalPrice": 850000,
+            "image": "/Product/11.jpg",
+            "category": "Rượu Vang Đỏ",
+            "description": "Rượu vang đỏ blend hiện đại với thiết kế nhãn độc đáo. Hương vị cân bằng giữa các giống nho khác nhau tạo nên sự phức hợp thú vị.",
+            "rating": 4,
+            "reviews": 22,
+            "stock": 0,
+            "features": [
+              "Xuất xứ: Úc",
+              "Độ cồn: 14%",
+              "Dung tích: 750ml",
+              "Phong cách: Modern Blend"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "productId": "10",
+          "product": {
+            "id": "10",
+            "name": "PRIMARIO PUGLIA 2000",
+            "price": 890000,
+            "originalPrice": 980000,
+            "image": "/Product/10.jpg",
+            "category": "Rượu Vang Đỏ",
+            "description": "Rượu vang đỏ vintage từ vùng Puglia, Italia. Được sản xuất từ năm 2000 với hương vị đậm đà và truyền thống.",
+            "rating": 4,
+            "reviews": 15,
+            "stock": 100,
+            "features": [
+              "Xuất xứ: Italia",
+              "Độ cồn: 13.5%",
+              "Dung tích: 750ml",
+              "Năm sản xuất: 2000"
+            ],
+            "categoryId": 3,
+            "status": "",
+            "slug": "2"
+          },
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1640000,
+      "createdAt": "2024-02-15T08:30:00.000Z",
+      "updatedAt": "2025-11-07T08:55:32.709Z"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2024-03-10T10:15:00.000Z",
+      "updatedAt": "2024-03-10T10:15:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "items": [
+        {
+          "productId": "9",
+          "product": {
+            "id": "9",
+            "name": "ROOT:1 CABERNET SAUVIGNON",
+            "price": 1580000,
+            "originalPrice": 1750000,
+            "image": "/Product/9.jpg",
+            "category": "Rượu Vang Đỏ",
+            "description": "Rượu vang đỏ cao cấp từ nho Cabernet Sauvignon, ủ trong thùng gỗ sồi với thiết kế chai sang trọng và hương vị đẳng cấp.",
+            "rating": 5,
+            "reviews": 8,
+            "stock": 100,
+            "features": [
+              "Xuất xứ: Úc",
+              "Độ cồn: 14.5%",
+              "Dung tích: 750ml",
+              "Thời gian ủ: 18 tháng"
+            ]
+          },
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1580000,
+      "createdAt": "2024-03-10T10:15:00.000Z",
+      "updatedAt": "2025-08-13T10:55:42.246Z"
+    },
+    {
+      "id": "b0fb",
+      "userId": "5",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2025-08-04T09:38:19.398Z",
+      "updatedAt": "2025-08-04T09:42:29.028Z"
+    },
+    {
+      "id": "6",
+      "userId": "6",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2025-08-04T09:38:19.398Z",
+      "updatedAt": "2025-08-04T09:42:29.028Z"
+    },
+    {
+      "id": "7",
+      "userId": "7",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2025-08-04T09:38:19.398Z",
+      "updatedAt": "2025-08-04T09:42:29.028Z"
+    },
+    {
+      "id": "8bce",
+      "userId": "a367",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2025-08-10T16:02:16.441Z",
+      "updatedAt": "2025-08-10T16:02:16.441Z"
+    },
+    {
+      "id": "6a26",
+      "userId": "564f",
+      "items": [],
+      "totalPrice": 0,
+      "createdAt": "2025-08-18T07:06:13.975Z",
+      "updatedAt": "2025-08-18T07:06:13.975Z"
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "1",
+      "code": "DISCOUNT10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-07-30T04:46:09.233Z"
+    },
+    {
+      "id": "2",
+      "code": "FREESHIP0D",
+      "discountType": "freeship",
+      "discountValue": 0,
+      "status": "active",
+      "createdAt": "2024-02-01T00:00:00.000Z",
+      "updatedAt": "2024-07-30T04:46:09.233Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "679c",
+      "userId": "2",
+      "orderId": "50ea",
+      "productId": "4",
+      "rating": 4,
+      "comment": "rượu ngọt",
+      "createdAt": "2025-08-01T11:28:59.029Z"
+    },
+    {
+      "id": "a7f8",
+      "userId": "2",
+      "orderId": "50ea",
+      "productId": "5",
+      "rating": 5,
+      "comment": "rượu ngon nha",
+      "createdAt": "2025-08-01T11:28:59.029Z"
+    },
+    {
+      "id": "db57",
+      "userId": "2",
+      "orderId": "50ea",
+      "productId": "3",
+      "rating": 1,
+      "comment": "dở",
+      "createdAt": "2025-08-01T11:28:59.029Z"
+    },
+    {
+      "id": "75b7",
+      "userId": "2",
+      "orderId": "1",
+      "productId": "1",
+      "rating": 5,
+      "comment": "ngon",
+      "createdAt": "2025-08-01T11:35:52.484Z"
+    },
+    {
+      "id": "ed15",
+      "userId": "2",
+      "orderId": "1",
+      "productId": "2",
+      "rating": 4,
+      "comment": "ngon",
+      "createdAt": "2025-08-01T11:35:52.485Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "userId": 2,
+      "productId": "1"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": "3"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": "2"
+    },
+    {
+      "id": "4",
+      "userId": 3,
+      "productId": "4"
+    },
+    {
+      "id": "5",
+      "userId": 4,
+      "productId": "5"
+    },
+    {
+      "id": "6",
+      "userId": 4,
+      "productId": "6"
+    },
+    {
+      "id": "7",
+      "userId": 5,
+      "productId": "2"
+    },
+    {
+      "id": "8",
+      "userId": 5,
+      "productId": "8"
+    },
+    {
+      "id": "9",
+      "userId": 6,
+      "productId": "7"
+    },
+    {
+      "id": "10",
+      "userId": 6,
+      "productId": "9"
+    },
+    {
+      "id": "11",
+      "userId": 8,
+      "productId": "4"
+    },
+    {
+      "id": "12",
+      "userId": 8,
+      "productId": "6"
+    },
+    {
+      "id": "13",
+      "userId": 9,
+      "productId": "1"
+    },
+    {
+      "id": "14",
+      "userId": 9,
+      "productId": "10"
+    },
+    {
+      "id": "15",
+      "userId": 10,
+      "productId": "3"
+    },
+    {
+      "id": "16",
+      "userId": 10,
+      "productId": "5"
+    },
+    {
+      "id": "17",
+      "userId": 11,
+      "productId": "2"
+    },
+    {
+      "id": "18",
+      "userId": 11,
+      "productId": "9"
+    },
+    {
+      "id": "19",
+      "userId": 6,
+      "productId": "10"
+    },
+    {
+      "id": "20",
+      "userId": 2,
+      "productId": "7"
+    }
+  ],
+  "emailTokens": [
+    {
+      "id": "d33e",
+      "userId": "a367",
+      "token": "320780",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T07:36:53.497Z",
+      "used": true,
+      "createdAt": "2025-08-11T07:31:53.497Z",
+      "usedAt": "2025-08-11T07:32:28.620Z"
+    },
+    {
+      "id": "a357",
+      "userId": "a367",
+      "token": "955281",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T07:38:22.694Z",
+      "used": true,
+      "createdAt": "2025-08-11T07:33:22.694Z",
+      "usedAt": "2025-08-11T07:34:13.656Z"
+    },
+    {
+      "id": "48ee",
+      "userId": "a367",
+      "token": "250984",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T07:49:46.810Z",
+      "used": true,
+      "createdAt": "2025-08-11T07:44:46.810Z",
+      "usedAt": "2025-08-11T07:45:39.081Z"
+    },
+    {
+      "id": "84a8",
+      "userId": "a367",
+      "token": "7DLVSQEJYURC4Pgl_g8IWUnSSV8l1S5z",
+      "type": "reset",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T15:30:06.659Z",
+      "used": true,
+      "createdAt": "2025-08-11T15:15:06.659Z",
+      "usedAt": "2025-08-11T15:16:45.589Z"
+    },
+    {
+      "id": "8988",
+      "userId": "a367",
+      "token": "758593",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T15:23:34.526Z",
+      "used": true,
+      "createdAt": "2025-08-11T15:18:34.526Z",
+      "usedAt": "2025-08-11T15:19:53.042Z"
+    },
+    {
+      "id": "cf82",
+      "userId": "a367",
+      "token": "797125",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-11T15:45:02.782Z",
+      "used": true,
+      "createdAt": "2025-08-11T15:40:02.782Z",
+      "usedAt": "2025-08-11T15:40:58.218Z"
+    },
+    {
+      "id": "8adb",
+      "userId": "a367",
+      "token": "983062",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-13T01:58:38.190Z",
+      "used": true,
+      "createdAt": "2025-08-13T01:53:38.190Z",
+      "usedAt": "2025-08-13T01:53:58.371Z"
+    },
+    {
+      "id": "aeee",
+      "userId": "a367",
+      "token": "521370",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-13T02:01:55.210Z",
+      "used": true,
+      "createdAt": "2025-08-13T01:56:55.210Z",
+      "usedAt": "2025-08-13T01:57:19.247Z"
+    },
+    {
+      "id": "8d79",
+      "userId": "a367",
+      "token": "mvOMBgC8Wk_xCf6T3JMMKFYqNGTRknoA",
+      "type": "reset",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-13T02:13:25.020Z",
+      "used": true,
+      "createdAt": "2025-08-13T01:58:25.020Z",
+      "usedAt": "2025-08-13T01:59:15.459Z"
+    },
+    {
+      "id": "1a7c",
+      "userId": "a367",
+      "token": "113414",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-13T09:16:57.768Z",
+      "used": true,
+      "createdAt": "2025-08-13T09:11:57.768Z",
+      "usedAt": "2025-08-13T09:14:01.371Z"
+    },
+    {
+      "id": "b5b4",
+      "userId": "a367",
+      "token": "158873",
+      "type": "2fa",
+      "email": "kagoko1505@cotasen.com",
+      "expiresAt": "2025-08-13T09:34:06.645Z",
+      "used": true,
+      "createdAt": "2025-08-13T09:29:06.645Z",
+      "usedAt": "2025-08-13T09:30:51.273Z"
+    },
+    {
+      "id": "ce7a",
+      "userId": "2",
+      "token": "611058",
+      "type": "2fa",
+      "email": "thanh@gmail.com",
+      "expiresAt": "2025-08-14T05:49:59.661Z",
+      "used": false,
+      "createdAt": "2025-08-14T05:44:59.661Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Đơn hàng đã bị hủy",
+      "message": "Mã đơn hàng: 7",
+      "createdAt": "2025-08-11T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/7"
+    },
+    {
+      "id": "2",
+      "title": "Đơn hàng đã hoàn thành",
+      "message": "Mã đơn hàng: 50ea",
+      "createdAt": "2025-08-12T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/50ea"
+    },
+    {
+      "id": "3",
+      "title": "Đặt hàng thành công",
+      "message": "Mã đơn hàng: 13d0",
+      "createdAt": "2025-08-11T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/13d0"
+    },
+    {
+      "id": "4",
+      "title": "Đơn hàng đã được duyệt",
+      "message": "Mã đơn hàng: fa04",
+      "createdAt": "2025-08-12T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/fa04"
+    },
+    {
+      "id": "5",
+      "title": "Đặt hàng thành công",
+      "message": "Mã đơn hàng: fa04",
+      "createdAt": "2025-08-11T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/fa04"
+    },
+    {
+      "id": "6",
+      "title": "Đơn hàng đã được duyệt",
+      "message": "Mã đơn hàng: fa04",
+      "createdAt": "2025-08-12T07:31:53.497Z",
+      "userId": "2",
+      "isSeen": true,
+      "link": "/account/orders/fa04"
+    },
+    {
+      "id": "1fa2",
+      "userId": "2",
+      "title": "Đặt hàng thành công",
+      "message": "Đơn hàng #3e9c",
+      "isSeen": true,
+      "createdAt": "2025-08-19T11:22:11.283Z",
+      "link": "/account/orders/3e9c"
+    },
+    {
+      "id": "7b29",
+      "userId": "2",
+      "title": "Đặt hàng thành công",
+      "message": "Đơn hàng #1eb4",
+      "isSeen": true,
+      "createdAt": "2025-08-19T11:29:22.783Z",
+      "link": "/account/orders/1eb4"
+    },
+    {
+      "id": "0591",
+      "userId": "3",
+      "title": "Cập nhật đơn hàng #3",
+      "message": "Trạng thái đơn hàng của bạn đã được cập nhật thành: Tất cả",
+      "isSeen": false,
+      "createdAt": "2025-08-21T03:02:46.702Z",
+      "link": "/orders/3"
+    },
+    {
+      "id": "82f4",
+      "userId": "3",
+      "title": "Cập nhật đơn hàng #3",
+      "message": "Trạng thái đơn hàng của bạn đã được cập nhật thành: Đã hoàn thành",
+      "isSeen": false,
+      "createdAt": "2025-08-21T03:02:48.790Z",
+      "link": "/orders/3"
+    },
+    {
+      "id": "1ef7",
+      "userId": "2",
+      "title": "Cập nhật đơn hàng #13d0",
+      "message": "Trạng thái đơn hàng của bạn đã được cập nhật thành: Đã duyệt",
+      "isSeen": true,
+      "createdAt": "2025-08-21T03:09:30.802Z",
+      "link": "/orders/13d0"
+    }
+  ]
+}

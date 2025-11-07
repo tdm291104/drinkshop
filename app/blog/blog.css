@@ -1,0 +1,52 @@
+.blog-title-image {
+    width: 250px;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+/* Fix for footer positioning */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/* Blog page specific styles */
+.blog-page {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 1024px) {
+    .blog-page .container {
+        width: 100%;
+    }
+}
+
+/* Banner image styling */
+.rounded-lg {
+    border-radius: 0rem;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Add some spacing to the banner container */
+.container .relative.rounded-lg {
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
